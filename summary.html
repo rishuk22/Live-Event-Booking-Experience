@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Event Booking | Summary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo-badge">LIVE</div>
+        <div>
+          <h1>SpotLight</h1>
+          <p>Booking summary</p>
+        </div>
+      </div>
+      <nav class="details-nav">
+        <a href="seats.html">Back to Seats</a>
+      </nav>
+    </header>
+
+    <main class="summary-layout">
+      <section class="summary-left">
+        <div class="summary-banner">
+          <div>
+            <span class="eyebrow accent">Seats reserved for 5 minutes</span>
+            <h2>Confirm your experience</h2>
+            <p>Review seat details, price breakdown and confirm instantly.</p>
+          </div>
+          <div class="coupon-pill">Best coupon applied</div>
+        </div>
+
+        <div class="booking-card">
+          <h3>Event details</h3>
+          <p id="summaryEventInfo">The Rift · Sat, May 24 · Galaxy Arena</p>
+        </div>
+
+        <div class="booking-card">
+          <h3>Seat selection</h3>
+          <p id="summarySeats">A1, A2</p>
+        </div>
+
+        <div class="booking-card">
+          <h3>Chosen showtime</h3>
+          <p id="summaryTime">6:00 PM</p>
+        </div>
+      </section>
+
+      <aside class="summary-right">
+        <div class="price-breakdown">
+          <h3>Price breakdown</h3>
+          <div class="line-item"><span>Ticket subtotal</span><span id="breakdownBase">₹0</span></div>
+          <div class="line-item"><span>Convenience fee</span><span id="breakdownFee">₹50</span></div>
+          <div class="line-item discount"><span>Coupon discount</span><span id="breakdownDiscount">-₹100</span></div>
+          <div class="line-item total"><span>Total</span><span id="breakdownTotal">₹0</span></div>
+          <button id="confirmBookingBtn" class="primary-btn full-width">Confirm Booking</button>
+        </div>
+      </aside>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

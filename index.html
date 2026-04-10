@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Event Booking | Discover</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo-badge">LIVE</div>
+        <div>
+          <h1>SpotLight</h1>
+          <p>Live Event Booking</p>
+        </div>
+      </div>
+      <div class="search-panel">
+        <input type="search" placeholder="Search shows, artists, venues" aria-label="Search events" />
+        <button class="primary-btn">Search</button>
+      </div>
+    </header>
+
+    <section class="hero-panel">
+      <div>
+        <p class="eyebrow">Discover the hottest live experiences</p>
+        <h2>Find your next unforgettable night.</h2>
+      </div>
+      <div class="hero-action-card">
+        <p>AI-powered recommendations with trending events highlighted for you.</p>
+        <span class="hint-chip">Recommended</span>
+      </div>
+    </section>
+
+    <section class="filters-bar">
+      <button class="filter-btn active">Date</button>
+      <button class="filter-btn">Category</button>
+      <button class="filter-btn">Price</button>
+      <button class="filter-btn">Location</button>
+    </section>
+
+    <main class="grid-cards">
+      <article class="event-card" data-event-id="the-rift" data-event-name="The Rift: Immersive Music Experience" data-event-date="Sat, May 24" data-event-time="7:30 PM" data-event-venue="Galaxy Arena" data-event-price="₹799">
+        <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?auto=format&fit=crop&w=800&q=80');"></div>
+        <div class="card-content">
+          <span class="badge">Trending</span>
+          <h3>The Rift</h3>
+          <p class="meta">Sat, May 24 · 7:30 PM</p>
+          <p class="meta">Galaxy Arena</p>
+          <div class="card-footer">
+            <span>From ₹799</span>
+            <a href="details.html" class="secondary-link">View Details</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="event-card" data-event-id="arijit-singh" data-event-name="Arijit Singh Concert" data-event-date="Fri, Jun 6" data-event-time="6:00 PM" data-event-venue="Luna Stage" data-event-price="₹999">
+        <div class="card-image" style="background-image:url('https://mumbai.mallsmarket.com/sites/default/files/photos/events/InorbitMall-Malad-ArijitSingh-LiveInConcert-19Dec2014.jpg');"></div>
+        <div class="card-content">
+          <span class="badge alt">Recommended</span>
+          <h3>Arijit Singh Concert</h3>
+          <p class="meta">Fri, Dec 19 · 6:00 PM</p>
+          <p class="meta">Inorbit Mall, Malad</p>
+          <div class="card-footer">
+            <span>From ₹999</span>
+            <a href="details.html" class="secondary-link">View Details</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="event-card" data-event-id="street-beat" data-event-name="Street Beat Live" data-event-date="Sun, Jun 15" data-event-time="6:00 PM" data-event-venue="Pulse Grounds" data-event-price="₹699">
+        <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=800&q=80');"></div>
+        <div class="card-content">
+          <span class="badge">Trending</span>
+          <h3>Street Beat Live</h3>
+          <p class="meta">Sun, Jun 15 · 6:00 PM</p>
+          <p class="meta">Pulse Grounds</p>
+          <div class="card-footer">
+            <span>From ₹699</span>
+            <a href="details.html" class="secondary-link">View Details</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="event-card" data-event-id="cosmic-fest" data-event-name="Cosmic Fest" data-event-date="Sat, Jul 5" data-event-time="9:00 PM" data-event-venue="Aurora Dome" data-event-price="₹1199">
+        <div class="card-image" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80');"></div>
+        <div class="card-content">
+          <span class="badge alt">Recommended</span>
+          <h3>Cosmic Fest</h3>
+          <p class="meta">Sat, Jul 5 · 9:00 PM</p>
+          <p class="meta">Aurora Dome</p>
+          <div class="card-footer">
+            <span>From ₹1199</span>
+            <a href="details.html" class="secondary-link">View Details</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="page-footer">
+      <p>Live Event Booking Platform — Desktop-first design for an immersive experience.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
